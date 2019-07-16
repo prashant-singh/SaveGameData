@@ -24,7 +24,7 @@ here data is an object of your "Data Class".
 ```csharp
 data = GameData.Load(data,"yourpassword");
 ```
-here data as a parameter is passed as a default data if there is no file found.
+pass the default data to create a new file if the file doesn't exist.
 
 That's it.
 
